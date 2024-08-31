@@ -1,5 +1,6 @@
 import {
    Logo,
+   Logo2,
 } from "./components";
 
 export default function MainTotal() {
@@ -7,6 +8,7 @@ export default function MainTotal() {
     <>
       
       <Logo />
+      <Logo2/>
   
 
    
