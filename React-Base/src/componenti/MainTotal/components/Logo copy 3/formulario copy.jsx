@@ -19,7 +19,6 @@ export default function Formulario() {
           <DemoContainer components={["TimePicker"]}>
             <TimePicker
               label="INIZIO"
-              value={selectedTime} // Establece el valor del TimePicker al estado
               onChange={handleTimeChange} // Maneja el cambio de hora
               viewRenderers={{
                 hours: renderTimeViewClock,

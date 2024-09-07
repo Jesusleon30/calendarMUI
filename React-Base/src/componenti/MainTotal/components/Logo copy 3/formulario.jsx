@@ -12,6 +12,9 @@ export default function Formulario() {
   const handleTimeChange = (newValue) => {
     setSelectedTime(newValue); // Actualiza el estado con la nueva hora seleccionada
   };
+
+
+
   return (
     <>
       <div>
@@ -33,6 +36,7 @@ export default function Formulario() {
       {/* Muestra la hora seleccionada */}
       <div>
         <h3>Hora seleccionada: {selectedTime.format("HH:mm")}</h3>
+        <h3>Hora seleccionada: orario</h3>
       </div>
     </>
   );
